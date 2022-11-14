@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Instagram Login</title>
+  <link rel="stylesheet" href="instagram.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <script>
+    function loginAvailable(){
+      window.document.querySelector("#loginButton").style.backgroundColor = "#318de2";
+    }
+
+    function footerReveal(){
+      window.document.querySelector("#footer").style.opacity= "1";
+    }
+
+  </script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="main">
+      <div class="left">
+        <img class="kittyPhone" src="https://placekitten.com/275/590" />
+      </div>
+      <div class="right">
+        <div id="firstBox">
+          <h1> Instagram </h1>
+          <div id="user">
+            <p class="placeholder"> Phone number, username, or email</p>
+          </div>
+          <div id="password">
+            <p class="placeholder"> Password</p>
+          </div>
+          <div>
+            <button id = loginButton onclick="loginAvailable()">Log In</button>
+          </div>
+          <div id="or">
+            <hr />
+            <p>OR</p>
+            <hr />
+          </div>
+          <div id="facebookLogin">
+            <img src="https://img.icons8.com/fluency/20/000000/facebook.png" />
+            <p>Log in with Facebook </p>
+          </div>
+          <div id="forgotPassword">
+            <p> Forgot password?</p>
+          </div>
+        </div>
+        <!--closing firstBox -->
+        <div id="secondBox">
+          <p> Don't have an account? <span id="signUp">Sign Up</span> </p>
+        </div>
+        <!--closing secondBox -->
+        <div id="cta">
+          <p>Get the app.</p>
+          <div id="stores">
+            <div id="apple">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/mac-os.png" />
+              <div>
+                <p>Download on the</p>
+                <p>App Store</p>
+              </div>
+            </div>
+            <div id="google">
+              <img src="https://img.icons8.com/color/30/000000/google-play.png" />
+              <div>
+                <p>GET IT ON</p>
+                <p>Google Play</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--closing CTA -->
+      </div>
+      <!--closing right -->
+    </div>
+    <!--closing main -->
+    <div id="footer" onclick="footerReveal()" >
+      <div id="firstRow">
+        <p> Meta </p>
+        <p> About </p>
+        <p> Blog </p>
+        <p> Jobs </p>
+        <p> Help </p>
+        <p> API </p>
+        <p> Privacy </p>
+        <p> Terms </p>
+        <p> Top Accounts </p>
+        <p> Hashtags </p>
+        <p> Locations </p>
+        <p> Instagram Lite </p>
+      </div>
+      <div id="secondRow">
+        <p> Beauty </p>
+        <p> Dance </p>
+        <p> Fitness </p>
+        <p> Food & Drink </p>
+        <p> Home & Garden </p>
+        <p> Music </p>
+        <p> Visual Arts </p>
+      </div>
+      <div id="thirdRow">
+        <p> English </p>
+        <p> © 2022 Instagram from Meta</p>
+      </div>
+    </div>
+    <!--closing footer -->
+  </div>
+  <!--closing all -->
+
+</body>
+
+</html>
