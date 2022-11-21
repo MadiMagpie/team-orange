@@ -1,0 +1,232 @@
+body {
+    background-color: #FAFAFA;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* START of Profile Styling  */
+
+.profilebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 500px;
+    border: 2px solid #F49842;
+    border-radius: 10px;
+}
+
+.profilebio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+
+}
+
+.profilenamebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.profilegreybox {
+    padding: 40px 40px 40px 40px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 200px;
+
+}
+
+.profileuserpic {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+}
+
+.displayname {
+    font-size: 36px;
+    font-weight: 800;
+    color: #F49842;
+    font-family: Inter, sans-serif;
+}
+
+.handlename {
+    font-size: 20px;
+    font-weight: 200;
+    color: #7B7B7B;
+    font-family: Inter, sans-serif;
+
+}
+
+/* END Profile Styling  */
+
+
+
+/* START of Following Box */
+.followingtitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 24px;
+    font-weight: 800;
+    color: #F49842;
+    font-family: Inter, sans-serif;
+    padding-left: 10%;
+    padding-bottom: 10%;
+
+}
+
+.followingbox {
+    width: 360px;
+    height: 500px;
+    border: 2px solid #F49842;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.followeduserpic {
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+}
+
+.followingusers {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.followeduserbox {
+    padding: 20px 10px 20px 22px;
+    border: 1px solid #E7E7E7;
+
+}
+
+.followeduserdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.followeddisplay {
+    font-size: 20px;
+    font-weight: 400;
+    color: #F49842;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-family: Inter, sans-serif;
+
+}
+
+.followedhandle {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #7B7B7B;
+    font-weight: 200;
+    font-family: Inter, sans-serif;
+
+}
+
+.followeduserbutton {
+
+    color: white;
+    background-color: #F49842;
+    border-radius: 10px;
+    border: #F49842;
+    width: 80px;
+    height: 30px;
+    font-family: Inter, sans-serif;
+}
+
+/* END of Following Box */
+
+
+
+
+/* START of Follow Suggestions Box */
+.followsuggestionstitle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F49842;
+    font-family: Inter, sans-serif;
+    padding-left: 10%;
+    padding-bottom: 10%;
+
+}
+
+.followsuggestionsbox {
+    width: 360px;
+    height: 500px;
+    border: 2px solid #F49842;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.followsuggestionuserpic {
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+}
+
+.followsuggestionusers {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.followsuggestionuserbox {
+    padding: 20px 10px 20px 22px;
+    border: 1px solid #E7E7E7;
+
+}
+
+.followsuggestionuserdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.followsuggestiondisplay {
+    font-size: 20px;
+    font-weight: 400;
+    color: #F49842;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-family: Inter, sans-serif;
+
+}
+
+.followsuggestionhandle {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #7B7B7B;
+    font-weight: 200;
+    font-family: Inter, sans-serif;
+
+}
+
+.followsuggestionuserbutton {
+
+    color: white;
+    background-color: #F49842;
+    border-radius: 10px;
+    border: #F49842;
+    width: 80px;
+    height: 30px;
+    font-family: Inter, sans-serif;
+}
+
+/* END of Follow Suggestions Box */
