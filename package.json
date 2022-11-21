@@ -5,7 +5,6 @@
   "name": "team-orange",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +18,6 @@
     "url": "https://github.com/MadiMagpie/team-orange/issues"
   },
   "homepage": "https://github.com/MadiMagpie/team-orange#readme",
+  "keywords": [],
   "description": ""
 }
