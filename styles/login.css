@@ -1,6 +1,7 @@
 body{
-       background-color: #FAFAFA;
+       background-color: #F49842;
        margin: 0;
+       font-family: Arial, Helvetica, sans-serif;
      }
      
      .wrapper {
@@ -25,13 +26,12 @@ body{
       height: 590px;
      }
      
-     .left > *{
+     .left {
       border-radius: 25px;
-      background-color: #385185;
-     }
-
-     .right > * {
-      border-radius: 25px;
+      background-color: #ffffff;
+      height: auto;
+      display: flex;
+      align-items: center;
      }
 
      .right{
@@ -39,32 +39,29 @@ body{
        display: flex;
        flex-direction: column;
        align-items: center;
-       border-radius: 25px;
+       background-color: #FFE2A9;
      }
      
      #firstBox{
-       height: 400px;
        width: 350px;
-       background-color: #FFFFFF;
-       border: 0.25px solid #DBDBDB;
+       height: auto;
+       padding: 10px;
        display: flex;
        flex-direction: column;
        align-items: center;
      }
-     
-     h1{
-       font-family: 'Dancing Script', cursive;
-       font-size: 50px;
-     }
-     /* p{
-       font-family: 'Arial', sans-serif;
-     } */
-     
-    .inputs {
-      display: flex;
-      flex-direction: row;
 
+     #firstBox > img {
+      width: 70px;
+      height: auto;
+      margin-bottom: 15px;
+     }
+     
+    #inputs {
+      display: flex;
+      flex-direction: column;
       align-items: center;
+      width: 75%;
     }
 
      #email, #password{
@@ -72,24 +69,34 @@ body{
        border: 0.25px solid #DBDBDB;
        width: 100%;
        height: 35px;
-       border-radius: 2px;
+       border-radius: 5px;
        margin-bottom: 15px;
        padding-left: 10px;
        font-size: 12px;
        color: #8E8E8E;
      }
-     
-     #loginButton {
+
+     #buttonCont {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+
+     #buttonCont p {
+      margin: 5px 0;
+     }
+     #button {
        font-family: 'Arial', sans-serif;
        font-weight: bold;
        font-size: 14px;
        color: #FFFFFF;
-       background-color: #C0DFFD;
+       background-color: #F49842;
        border: none;
        text-align: center;
        padding: 8px 110px;
        border-radius: 5px;
-       margin-bottom: 15px;
+       margin: 10px 0;
+       width: 100%;
      }
      
      #or {
@@ -103,45 +110,48 @@ body{
      
      hr{
        flex-grow: 1;
-       border-top: 0.25px solid #DBDBDB;
+       border-top:  solid #000000;
      }
      
      #or p{
-       color: #9B9B9B;
+       color: #000000;
        font-weight: bold;
        font-size: 14px;
        width: 50px;
        text-align: center;
      }
      
-     #facebookLogin{
+     #googleLogin{
        width: 75%;
        height: 45px;
        display: flex;
        flex-direction: row;
        align-items: center;
        justify-content: center;
-     }
-     
-     #facebookLogin p{
+       background-color: #FFFFFF;
+       border-radius: 5px;
+       border: 0.25px solid #385185;
        color: #385185;
        font-weight: bold;
        font-size: 14px;
-       padding: 5px;
+       padding: 6px 0;
      }
+     #googleLogin img{
+      width: 20px;
+      height: 20px;
+    }
      
-     #forgotPassword p{
+     #forgotPassword {
        text-align: center;
-       color: #00376A;
+       color: #717171;
        font-size: 12px;
+       margin: 10px;
      }
      
      #secondBox{
        margin-top: 10px;
-       height: 65px;
+       height: auto;
        width: 350px;
-       background-color: #FFFFFF;
-       border: 0.25px solid #DBDBDB;
        display: flex;
        flex-direction: column;
        align-items: center;
