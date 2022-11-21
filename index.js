@@ -10,9 +10,9 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-const auth = getAuth();
-const database = getDatabase();
+const app = initializeApp(firebaseConfig);
+const auth = app.auth();
+const database = app.database();
 
 // Set up register function
 function Register() {
@@ -106,7 +106,7 @@ function validate_email(email){
 }
 
 function validate_password(password) {
-    if(password <6){
+    if(password < 6){
         return false
     } else {
         return true
