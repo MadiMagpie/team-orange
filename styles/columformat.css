@@ -2,6 +2,7 @@
     background-color:  #F49842;
     height: 50px;
     width: 100%;
+    display:flex;
     padding: 10px;
 }
 
@@ -122,6 +123,10 @@ form {
     padding: 5px;
     width: 70px;
     border: none;
+}
+
+.interactions {
+    float: right;
 }
 
 .user-post-wrap{
