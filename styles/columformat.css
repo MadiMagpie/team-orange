@@ -1,0 +1,143 @@
+.navbar {
+    background-color:  #F49842;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0px;
+    font-family: Inter, sans-serif;
+}
+
+
+.whole-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    align-content: flex-start;
+    height: 100vh;
+    width: fit-content;
+    padding: 10px;
+}
+
+.left-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: fit-content;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+
+.middle-container {
+    display:flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    gap: 20px;
+    /* margin: 10px; */
+}
+
+
+.right-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+
+
+/* Post A Tweet Section */
+
+form {
+    background-color:#FFE2A9;
+    padding: 10px;
+    height: fit-content;
+    width: 100%;
+    padding: 20px 20px 10px;
+    border-radius: 5px;
+}
+
+.tweet-submit {
+    color: black;
+    background-color: #F49842;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95px;
+    border: none;
+    float: right;
+}
+
+.user-post-tweetbox{
+    width: 555px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: none;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+
+
+/* User Tweet Avatar */
+
+.avatar-cont{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.user-tweetarea {
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+} 
+
+.post-tweet-cont{
+    display: flex;
+    height: fit-content;
+}
+
+.user-post-tweet {
+    /* display: flex;
+    height: fit-content;
+    width: 100%;
+    flex-direction: row; */
+    background-color: #FFE2A9;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 10px;
+}
+
+.tweet-report {
+    float: right;
+    color: black;
+    background-color: #F49842;
+    border-radius: 10px;
+    padding: 5px;
+    width: 70px;
+    border: none;
+}
+
+.user-post-wrap{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 80px;
+    margin: 10px;
+}
+
+
+.avatar {
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+}
+
+
