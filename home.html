@@ -1,170 +1,161 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
- 
+
 <head>
-   <meta charset="utf-8">
-   <title>Twitter Profile</title>
-   <link rel="stylesheet" href="styles/profileandfollow.css" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-       rel="stylesheet">
-   <script>
- 
-   </script>
+    <meta charset="utf-8">
+    <title>Twitter Profile</title>
+    <link rel="stylesheet" href="styles/profileandfollow.css" />
+    <link rel="stylesheet" href="styles/columformat.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script>
+
+    </script>
+
 </head>
- 
+
 <body>
-   <!--start of whole page column-->
-   <div class = "col">
-       <!-- start of nav bar-->
-       <div class = "nav row">
-           <img src = "public/game-icons_orange-slice.svg"/>
-           <p class = title> Twitter </p>
-       </div>
- 
-       <div class = "row">
-           <!-- start of main row-->
-      
-       <!-- START of Profile Box -->
-       <div class = "col">
-               <!--Start of left side -->
-           <div class="profilebox">
-               <img class="profileuserpic" />
-               <div class="profilenamebox">
-                   <div class="displayname">orangeteam</div>
-                   <div class="handlename"> @orangeteam</div>
-               </div>
-               <div class="profilegreybox">
-                   <div class="profilebio">
-                       Hello, I'm just an orange. yay
-                       Hello, I'm just an orange. yay
-                       Hello, I'm just an orange. yay
-                       Hello, I'm just an orange. yay
-                       Hello, I'm just an orange. yay
-                   </div>
-               </div>
-           </div>
-      
-       <!-- END of Profile Box -->
- 
- 
- 
-           <!-- START of Following Box -->
-           <div class="followingbox">
-               <div class="followingtitle">Following</div>
- 
-               <div class="followeduserbox">
-                   <div class="followingusers">
-                       <img class="followeduserpic" />
-                       <div class="followeduserdetails">
-                           <div class="followeddisplay">brickabrak woo</div>
-                           <div class="followedhandle">@brickabrak</div>
-                       </div>
-                       <button class="followeduserbutton">Unfollow</button>
-                   </div>
-               </div>
- 
-               <div class="followeduserbox">
-                   <div class="followingusers">
-                       <img class="followeduserpic" />
-                       <div class="followeduserdetails">
-                           <div class="followeddisplay">brickabrak woo</div>
-                           <div class="followedhandle">@brickabrak</div>
-                       </div>
-                       <button class="followeduserbutton">Unfollow</button>
-                   </div>
-               </div>
- 
-               <div class="followeduserbox">
-                   <div class="followingusers">
-                       <img class="followeduserpic" />
-                       <div class="followeduserdetails">
-                           <div class="followeddisplay">brickabrak woo</div>
-                           <div class="followedhandle">@brickabrak</div>
-                       </div>
-                       <button class="followeduserbutton">Unfollow</button>
-                   </div>
-               </div>
-           </div><!-- end of left side -->
-               <!-- END of Following Box -->
-       </div>
-       <div class = "col">
-           <!-- start of middle -->
-           <form class = "createTweet">
-               <textarea rows="10" cols="70" placeholder="Post a fake tweet..."></textarea><br />
-               <span class="submit">
-                   <button>Post</button>
-               </span>
-           </form>
- 
-           <div class = "tweetBox col">
-               <button class = "edit-report"> report </button>
-               <div class = "row">
-                   <div class = "col">
-                       <img class = "userpic" src = "public/avatar.png"/>
-                       <div class = "col">
-                           <div class = "tweet displayname"> orangeteam </div>
-                           <div class = "tweet handlename"> @orangeteam </div>
-                       </div>
-                   </div>
-                   <div class = "row">
-                       <div class = "tweets"> Hello, I'm just an orange. yay </div>
-                   </div>
-               </div>
-               <div class = "interactions">
-                   <button class = "retweet interact"><img src ="public/ant-design_retweet-outlined.svg"/> </button>
-                   <button class = "like interact"><img src ="public/akar-icons_heart.svg"/></button>
-               </div>
-           </div>
-       </div>
- 
- 
-       <div class = "col">
-           <!-- START of Follow Suggestions Box -->
-           <div class="followsuggestionsbox">
-               <div class="followsuggestionstitle">Follow Suggestions</div>
- 
-               <div class="followsuggestionuserbox">
-                   <div class="followsuggestionusers">
-                       <img class="followsuggestionuserpic" />
-                       <div class="followsuggestionuserdetails">
-                           <div class="followsuggestiondisplay">brickabrak woo</div>
-                           <div class="followsuggestionhandle">@brickabrak</div>
-                       </div>
-                       <button class="followsuggestionuserbutton">Follow +</button>
-                   </div>
-               </div>
- 
-               <div class="followsuggestionuserbox">
-                   <div class="followsuggestionusers">
-                       <img class="followsuggestionuserpic" />
-                       <div class="followsuggestionuserdetails">
-                           <div class="followsuggestiondisplay">brickabrak woo</div>
-                           <div class="followsuggestionhandle">@brickabrak</div>
-                       </div>
-                       <button class="followsuggestionuserbutton">Follow +</button>
-                   </div>
-               </div>
- 
-               <div class="followsuggestionuserbox">
-                   <div class="followsuggestionusers">
-                       <img class="followsuggestionuserpic" />
-                       <div class="followsuggestionuserdetails">
-                           <div class="followsuggestiondisplay">brickabrak woo</div>
-                           <div class="followsuggestionhandle">@brickabrak</div>
-                       </div>
-                       <button class="followsuggestionuserbutton">Follow +</button>
-                   </div>
-               </div>
-           </div>
-           <!-- END of Following Box -->
-       </div>
-       <!-- end of main row-->
-</div>
-<!-- end of whole page column-->
- 
+    <div class="navbar">
+        <img src="/public/game-icons_orange-slice.svg">
+        <h1>Twitter</h1>
+    </div>
+
+    <div class="whole-container">
+
+        <!-- START of Profile Box -->
+        <div class="left-container">
+            <div class="profilebox">
+                <img class="profileuserpic" />
+                <div class="profilenamebox">
+                    <div class="displayname">orangeteam</div>
+                    <div class="handlename"> @orangeteam</div>
+                </div>
+                <div class="profilegreybox">
+                    <div class="profilebio">
+                        Hello, I'm just an orange. yay
+                        Hello, I'm just an orange. yay
+                        Hello, I'm just an orange. yay
+                        Hello, I'm just an orange. yay
+                        Hello, I'm just an orange. yay
+                    </div>
+                </div>
+            </div>
+            <!-- END of Profile Box -->
+
+
+
+            <!-- START of Following Box -->
+            <div class="followingbox">
+                <div class="followingtitle">Following</div>
+
+                <div class="followeduserbox">
+                    <div class="followingusers">
+                        <img class="followeduserpic" />
+                        <div class="followeduserdetails">
+                            <div class="followeddisplay">brickabrak woo</div>
+                            <div class="followedhandle">@brickabrak</div>
+                        </div>
+                        <button class="followeduserbutton">Unfollow</button>
+                    </div>
+                </div>
+
+                <div class="followeduserbox">
+                    <div class="followingusers">
+                        <img class="followeduserpic" />
+                        <div class="followeduserdetails">
+                            <div class="followeddisplay">brickabrak woo</div>
+                            <div class="followedhandle">@brickabrak</div>
+                        </div>
+                        <button class="followeduserbutton">Unfollow</button>
+                    </div>
+                </div>
+
+                <div class="followeduserbox">
+                    <div class="followingusers">
+                        <img class="followeduserpic" />
+                        <div class="followeduserdetails">
+                            <div class="followeddisplay">brickabrak woo</div>
+                            <div class="followedhandle">@brickabrak</div>
+                        </div>
+                        <button class="followeduserbutton">Unfollow</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END of Following Box -->
+
+        <!-- START of Post Box -->
+        <div class="middle-container">
+            <div class='post-tweet-cont'>
+                <form>
+                    <textarea class="user-post-tweetbox" placeholder="Post your tweet"></textarea>
+                    <button class="tweet-submit">Tweeter</button>
+                </form>
+            </div>
+
+            <div class='user-post-tweet'>
+                <button class="tweet-report">Report</button>
+                <div class="user-post-wrap">
+                <div class="avatar-cont">
+                    <img class="avatar" src="https://placekitten.com/100/100" />
+                    <button class="follow-user">SLAY</button>
+                </div>
+                    <textarea class="user-tweetarea" readonly>HELP</textarea>
+                </div>
+                <div class = "interactions">
+                    <button class = "retweet interact"><img src ="public/ant-design_retweet-outlined.svg"/> </button>
+                    <button class = "like interact"><img src ="public/akar-icons_heart.svg"/></button>
+                </div>
+            </div>
+        </div>
+        <!-- END of Post Box -->
+
+
+        <!-- START of Follow Suggestions Box -->
+        <div class="right-container">
+            <div class="followsuggestionsbox">
+                <div class="followsuggestionstitle">Follow Suggestions</div>
+
+                <div class="followsuggestionuserbox">
+                    <div class="followsuggestionusers">
+                        <img class="followsuggestionuserpic" />
+                        <div class="followsuggestionuserdetails">
+                            <div class="followsuggestiondisplay">brickabrak woo</div>
+                            <div class="followsuggestionhandle">@brickabrak</div>
+                        </div>
+                        <button class="followsuggestionuserbutton">Follow +</button>
+                    </div>
+                </div>
+
+                <div class="followsuggestionuserbox">
+                    <div class="followsuggestionusers">
+                        <img class="followsuggestionuserpic" />
+                        <div class="followsuggestionuserdetails">
+                            <div class="followsuggestiondisplay">brickabrak woo</div>
+                            <div class="followsuggestionhandle">@brickabrak</div>
+                        </div>
+                        <button class="followsuggestionuserbutton">Follow +</button>
+                    </div>
+                </div>
+
+                <div class="followsuggestionuserbox">
+                    <div class="followsuggestionusers">
+                        <img class="followsuggestionuserpic" />
+                        <div class="followsuggestionuserdetails">
+                            <div class="followsuggestiondisplay">brickabrak woo</div>
+                            <div class="followsuggestionhandle">@brickabrak</div>
+                        </div>
+                        <button class="followsuggestionuserbutton">Follow +</button>
+                    </div>
+                </div>
+                <!-- END of Following Box -->
+
+            </div>
+        </div>
+    </div>
 </body>
- 
+
 </html>

@@ -1,6 +1,7 @@
 body{
        background-color: #FAFAFA;
        margin: 0;
+       width: fit-content;
      }
      
      .wrapper {
