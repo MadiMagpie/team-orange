@@ -2,12 +2,45 @@ body {
     background-color: #FAFAFA;
     margin: 0;
     height: 100vh;
-    width: fit-content;
-}
-
-/* START of Profile Styling  */
-
-.profilebox {
+    width: 100vw;
+ }
+  
+ .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+ }
+ .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+ }
+  
+ .nav{
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 3em;
+    background-color: #f49842;
+ }
+  
+ /* START of Profile Styling  */
+  
+ .title{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1c1c1c;
+    margin: 0;
+    margin-left: 0.5em;
+    padding: 0;
+ }
+  
+ .profilebox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,61 +49,61 @@ body {
     height: 500px;
     border: 2px solid #F49842;
     border-radius: 10px;
-}
-
-.profilebio {
+ }
+  
+ .profilebio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Inter, sans-serif;
-
-}
-
-.profilenamebox {
+  
+ }
+  
+ .profilenamebox {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 5%;
-}
-
-.profilegreybox {
+ }
+  
+ .profilegreybox {
     padding: 40px 40px 40px 40px;
     background-color: #F2F2F2;
     border-radius: 10px;
     width: 200px;
-
-}
-
-.profileuserpic {
+  
+ }
+  
+ .profileuserpic {
     width: 100px;
     height: 100px;
     background: black;
     border-radius: 50%;
-}
-
-.displayname {
+ }
+  
+ .displayname {
     font-size: 36px;
     font-weight: 800;
     color: #F49842;
     font-family: Inter, sans-serif;
-}
-
-.handlename {
+ }
+  
+ .handlename {
     font-size: 20px;
     font-weight: 200;
     color: #7B7B7B;
     font-family: Inter, sans-serif;
-
-}
-
-/* END Profile Styling  */
-
-
-
-/* START of Following Box */
-.followingtitle {
+  
+ }
+  
+ /* END Profile Styling  */
+  
+  
+  
+ /* START of Following Box */
+ .followingtitle {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -80,65 +113,65 @@ body {
     font-family: Inter, sans-serif;
     padding-left: 10%;
     padding-bottom: 10%;
-
-}
-
-.followingbox {
+  
+ }
+  
+ .followingbox {
     width: 360px;
     height: 500px;
     border: 2px solid #F49842;
     padding-top: 50px;
     border-radius: 10px;
-}
-
-.followeduserpic {
+ }
+  
+ .followeduserpic {
     width: 50px;
     height: 50px;
     background: black;
     border-radius: 50%;
-}
-
-.followingusers {
+ }
+  
+ .followingusers {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-}
-
-.followeduserbox {
+ }
+  
+ .followeduserbox {
     padding: 20px 10px 20px 22px;
     border: 1px solid #E7E7E7;
-
-}
-
-.followeduserdetails {
+  
+ }
+  
+ .followeduserdetails {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-}
-
-.followeddisplay {
+ }
+  
+ .followeddisplay {
     font-size: 20px;
     font-weight: 400;
     color: #F49842;
     padding-left: 10px;
     padding-right: 40px;
     font-family: Inter, sans-serif;
-
-}
-
-.followedhandle {
+  
+ }
+  
+ .followedhandle {
     padding-left: 10px;
     font-size: 20px;
     color: #7B7B7B;
     font-weight: 200;
     font-family: Inter, sans-serif;
-
-}
-
-.followeduserbutton {
-
+  
+ }
+  
+ .followeduserbutton {
+  
     color: white;
     background-color: #F49842;
     border-radius: 10px;
@@ -146,80 +179,80 @@ body {
     width: 80px;
     height: 30px;
     font-family: Inter, sans-serif;
-}
-
-/* END of Following Box */
-
-
-
-
-/* START of Follow Suggestions Box */
-.followsuggestionstitle {
+ }
+  
+ /* END of Following Box */
+  
+  
+  
+  
+ /* START of Follow Suggestions Box */
+ .followsuggestionstitle {
     font-size: 24px;
     font-weight: 800;
     color: #F49842;
     font-family: Inter, sans-serif;
     padding-left: 10%;
     padding-bottom: 10%;
-
-}
-
-.followsuggestionsbox {
+  
+ }
+  
+ .followsuggestionsbox {
     width: 360px;
     height: 500px;
     border: 2px solid #F49842;
     padding-top: 50px;
     border-radius: 10px;
-}
-
-.followsuggestionuserpic {
+ }
+  
+ .followsuggestionuserpic {
     width: 50px;
     height: 50px;
     background: black;
     border-radius: 50%;
-}
-
-.followsuggestionusers {
+ }
+  
+ .followsuggestionusers {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-}
-
-.followsuggestionuserbox {
+ }
+  
+ .followsuggestionuserbox {
     padding: 20px 10px 20px 22px;
     border: 1px solid #E7E7E7;
-
-}
-
-.followsuggestionuserdetails {
+  
+ }
+  
+ .followsuggestionuserdetails {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-}
-
-.followsuggestiondisplay {
+ }
+  
+ .followsuggestiondisplay {
     font-size: 20px;
     font-weight: 400;
     color: #F49842;
     padding-left: 10px;
     padding-right: 40px;
     font-family: Inter, sans-serif;
-
-}
-
-.followsuggestionhandle {
+  
+ }
+  
+ .followsuggestionhandle {
     padding-left: 10px;
     font-size: 20px;
     color: #7B7B7B;
     font-weight: 200;
     font-family: Inter, sans-serif;
-
-}
-
-.followsuggestionuserbutton {
-
+  
+ }
+  
+ .followsuggestionuserbutton {
+  
     color: white;
     background-color: #F49842;
     border-radius: 10px;
@@ -227,6 +260,56 @@ body {
     width: 80px;
     height: 30px;
     font-family: Inter, sans-serif;
-}
-
-/* END of Follow Suggestions Box */
+ }
+  
+ /* END of Follow Suggestions Box */
+  
+ /*start of tweet styling*/
+  
+ .tweetBox{
+    width: 30em;
+    height: 12em;
+    background-color: #ffe2a9;
+    margin: 2em;
+    border-radius: 10px;
+ }
+  
+ .interact{
+    border: none;
+    background-color: #fafafa00;
+ }
+  
+ .edit-report{
+    background-color: #F49842;
+    border-radius: 6px;
+    border:none;
+    color: white;
+    padding: 0.25em;
+    width: 5em;
+  
+ }
+ .userpic{
+    width:2em;
+ }
+  
+ .tweet.displayname{
+    font-size: 1em;
+    font-weight: 800;
+    color: #F49842;
+    font-family: Inter, sans-serif;
+ }
+ .tweet.handlename{
+    font-size: 0.5em;
+    font-weight: 400;
+    color: #898989;
+    font-family: Inter, sans-serif;
+ }
+  
+ .tweets{
+    background-color: white;
+    width: 15em;
+    padding: 2em;
+    border-radius: 15px;
+    margin: 0.5em;
+ }
+ 
